@@ -15,7 +15,7 @@ namespace SpotifyApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Learn about Spotify and its workings.";
 
             return View();
         }
