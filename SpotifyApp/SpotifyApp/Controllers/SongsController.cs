@@ -4,12 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-
 namespace SpotifyApp.Controllers
 {
-    public class PlaylistController : Controller
+    public class SongsController : Controller
     {
-        // GET: Playlist
+        // GET: Songs
         public ActionResult Index()
         {
             return View();
